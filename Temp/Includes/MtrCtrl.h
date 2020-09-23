@@ -23,6 +23,7 @@ typedef struct FB_Integrator
 	float out;
 	/* VAR (analog) */
 	float dt;
+	float state;
 } FB_Integrator_typ;
 
 typedef struct FB_Regulator

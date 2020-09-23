@@ -27,7 +27,7 @@ void FB_motor(struct FB_motor* inst)
 	REAL a = inst->u / inst->ke - inst->w;
 	REAL b = a / inst->Tm;
 	inst->integrator.in = b;
-	FB_Integrator(inst->integrator);
+	FB_Integrator(&inst->integrator);
 	
 	inst->w = inst->integrator.out;
 	/*TODO: Add your code here*/

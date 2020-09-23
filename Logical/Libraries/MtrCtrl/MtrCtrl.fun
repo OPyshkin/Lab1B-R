@@ -18,6 +18,7 @@ FUNCTION_BLOCK FB_Integrator (*TODO: Add your comment here*)
 	END_VAR
 	VAR
 		dt : REAL;
+		state : REAL;
 	END_VAR
 END_FUNCTION_BLOCK
 

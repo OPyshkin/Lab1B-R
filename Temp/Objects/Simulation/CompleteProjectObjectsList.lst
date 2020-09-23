@@ -112,13 +112,13 @@
     Path="C:\projects\KRBO-01-17\Kabanov\Logical\Libraries\MtrCtrl\MtrCtrl.fun"
     LogicalPath="Libraries.MtrCtrl.MtrCtrl.fun"
     Type="File"
-    LastWriteTime="132453356291455304"
+    LastWriteTime="132453451104290638"
     Private="false" />
   <Object
     Path="C:\projects\KRBO-01-17\Kabanov\Logical\Libraries\MtrCtrl\FB_Integrator.c"
     LogicalPath="Libraries.MtrCtrl.FB_Integrator.c"
     Type="File"
-    LastWriteTime="132453382589382120"
+    LastWriteTime="132453449713609326"
     Private="false" />
   <Object
     Path="C:\projects\KRBO-01-17\Kabanov\Logical\Libraries\MtrCtrl\FB_Regulator.c"
@@ -130,7 +130,7 @@
     Path="C:\projects\KRBO-01-17\Kabanov\Logical\Libraries\MtrCtrl\FB_Motor.c"
     LogicalPath="Libraries.MtrCtrl.FB_Motor.c"
     Type="File"
-    LastWriteTime="132453388854671400"
+    LastWriteTime="132453452384333947"
     Private="false" />
   <Object
     Path="C:\projects\KRBO-01-17\Kabanov\Logical\Libraries\Program\ANSIC.prg"
@@ -153,7 +153,7 @@
     Path="C:\projects\KRBO-01-17\Kabanov\Logical\Libraries\Program\Program.var"
     LogicalPath="Libraries.Program.Program.var"
     Type="File"
-    LastWriteTime="132441223800000000"
+    LastWriteTime="132453454789490003"
     Private="true" />
   <Object
     Path="C:\projects\KRBO-01-17\Kabanov\Physical\Simulation\Config.pkg"
