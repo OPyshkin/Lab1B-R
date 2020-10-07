@@ -141,7 +141,7 @@
     Path="C:\projects\KRBO-01-17\Kabanov\Logical\Libraries\Program\Program.c"
     LogicalPath="Libraries.Program.Program.c"
     Type="File"
-    LastWriteTime="132441251720000000"
+    LastWriteTime="132465468886882493"
     Private="false" />
   <Object
     Path="C:\projects\KRBO-01-17\Kabanov\Logical\Libraries\Program\Program.typ"
@@ -153,7 +153,7 @@
     Path="C:\projects\KRBO-01-17\Kabanov\Logical\Libraries\Program\Program.var"
     LogicalPath="Libraries.Program.Program.var"
     Type="File"
-    LastWriteTime="132453454789490003"
+    LastWriteTime="132453466474330314"
     Private="true" />
   <Object
     Path="C:\projects\KRBO-01-17\Kabanov\Physical\Simulation\Config.pkg"

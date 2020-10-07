@@ -12,10 +12,10 @@
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\mtrctrl\fb_integrator.c.o">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\mtrctrl\fb_regulator.c.o">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\program\a.out">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\program\a.out">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\mtrctrl\fb_regulator.c.o">
     <BuildReason>Rebuild.</BuildReason>
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\program\program.ox">
