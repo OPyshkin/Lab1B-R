@@ -2,203 +2,203 @@
 <?AutomationStudio Version="4.5.2.102"?>
 <Objects>
   <Object
-    Path="C:\projects\KRBO-01-17\Kabanov\Logical\Package.pkg"
+    Path="D:\BRLab1\Logical\Package.pkg"
     LogicalPath=""
     Type="Package.ParentUnknown"
-    LastWriteTime="129592675740000000" />
+    LastWriteTime="132465480284475065" />
   <Object
-    Path="C:\projects\KRBO-01-17\Kabanov\Logical\Global.typ"
+    Path="D:\BRLab1\Logical\Global.typ"
     LogicalPath="Global.typ"
     Type="File"
-    LastWriteTime="132441222560000000"
+    LastWriteTime="132453399414024047"
     Private="false" />
   <Object
-    Path="C:\projects\KRBO-01-17\Kabanov\Logical\Global.var"
+    Path="D:\BRLab1\Logical\Global.var"
     LogicalPath="Global.var"
     Type="File"
-    LastWriteTime="132441222560000000"
+    LastWriteTime="132453399414024047"
     Private="false" />
   <Object
-    Path="C:\projects\KRBO-01-17\Kabanov\Logical\Libraries\Package.pkg"
+    Path="D:\BRLab1\Logical\Program\ANSIC.prg"
+    LogicalPath="Program"
+    Type="Program"
+    LastWriteTime="132465480283545596" />
+  <Object
+    Path="D:\BRLab1\Logical\Program\Program.c"
+    LogicalPath="Program.Program.c"
+    Type="File"
+    LastWriteTime="132465485580752106"
+    Private="false" />
+  <Object
+    Path="D:\BRLab1\Logical\Program\Program.typ"
+    LogicalPath="Program.Program.typ"
+    Type="File"
+    LastWriteTime="132465480283375708"
+    Private="true" />
+  <Object
+    Path="D:\BRLab1\Logical\Program\Program.var"
+    LogicalPath="Program.Program.var"
+    Type="File"
+    LastWriteTime="132465485612163939"
+    Private="true" />
+  <Object
+    Path="D:\BRLab1\Logical\Libraries\Package.pkg"
     LogicalPath="Libraries"
     Type="Package"
-    LastWriteTime="132441224360000000" />
+    LastWriteTime="132465480282236346" />
   <Object
-    Path="C:\projects\KRBO-01-17\Kabanov\Logical\Libraries\Runtime\Binary.lby"
+    Path="D:\BRLab1\Logical\Libraries\Runtime\Binary.lby"
     LogicalPath="Libraries.Runtime"
     Type="Library"
-    LastWriteTime="129592675740000000" />
+    LastWriteTime="132453399414193960" />
   <Object
-    Path="C:\projects\KRBO-01-17\Kabanov\Logical\Libraries\Runtime\runtime.var"
+    Path="D:\BRLab1\Logical\Libraries\Runtime\runtime.var"
     LogicalPath="Libraries.Runtime.runtime.var"
     Type="File"
-    LastWriteTime="129592675740000000"
+    LastWriteTime="132453399414223948"
     Private="false" />
   <Object
-    Path="C:\projects\KRBO-01-17\Kabanov\Logical\Libraries\Runtime\runtime.typ"
+    Path="D:\BRLab1\Logical\Libraries\Runtime\runtime.typ"
     LogicalPath="Libraries.Runtime.runtime.typ"
     Type="File"
-    LastWriteTime="129592675740000000"
+    LastWriteTime="132453399414203934"
     Private="false" />
   <Object
-    Path="C:\projects\KRBO-01-17\Kabanov\Logical\Libraries\Runtime\runtime.fun"
+    Path="D:\BRLab1\Logical\Libraries\Runtime\runtime.fun"
     LogicalPath="Libraries.Runtime.runtime.fun"
     Type="File"
-    LastWriteTime="129592675740000000"
+    LastWriteTime="132453399414193960"
     Private="false" />
   <Object
-    Path="C:\projects\KRBO-01-17\Kabanov\Logical\Libraries\Operator\Binary.lby"
+    Path="D:\BRLab1\Logical\Libraries\Operator\Binary.lby"
     LogicalPath="Libraries.Operator"
     Type="Library"
-    LastWriteTime="129592675740000000" />
+    LastWriteTime="132453399414113976" />
   <Object
-    Path="C:\projects\KRBO-01-17\Kabanov\Logical\Libraries\Operator\operator.fun"
+    Path="D:\BRLab1\Logical\Libraries\Operator\operator.fun"
     LogicalPath="Libraries.Operator.operator.fun"
     Type="File"
-    LastWriteTime="129592675740000000"
+    LastWriteTime="132453399414124161"
     Private="false" />
   <Object
-    Path="C:\projects\KRBO-01-17\Kabanov\Logical\Libraries\AsIecCon\Binary.lby"
+    Path="D:\BRLab1\Logical\Libraries\AsIecCon\Binary.lby"
     LogicalPath="Libraries.AsIecCon"
     Type="Library"
-    LastWriteTime="129592675740000000" />
+    LastWriteTime="132453399414054017" />
   <Object
-    Path="C:\projects\KRBO-01-17\Kabanov\Logical\Libraries\AsIecCon\AsIecCon.fun"
+    Path="D:\BRLab1\Logical\Libraries\AsIecCon\AsIecCon.fun"
     LogicalPath="Libraries.AsIecCon.AsIecCon.fun"
     Type="File"
-    LastWriteTime="129592675740000000"
+    LastWriteTime="132453399414044025"
     Private="false" />
   <Object
-    Path="C:\projects\KRBO-01-17\Kabanov\Logical\Libraries\astime\Binary.lby"
+    Path="D:\BRLab1\Logical\Libraries\astime\Binary.lby"
     LogicalPath="Libraries.astime"
     Type="Library"
-    LastWriteTime="129592675740000000" />
+    LastWriteTime="132453399414233952" />
   <Object
-    Path="C:\projects\KRBO-01-17\Kabanov\Logical\Libraries\astime\astime.var"
+    Path="D:\BRLab1\Logical\Libraries\astime\astime.var"
     LogicalPath="Libraries.astime.astime.var"
     Type="File"
-    LastWriteTime="129592675740000000"
+    LastWriteTime="132453399414273908"
     Private="false" />
   <Object
-    Path="C:\projects\KRBO-01-17\Kabanov\Logical\Libraries\astime\astime.typ"
+    Path="D:\BRLab1\Logical\Libraries\astime\astime.typ"
     LogicalPath="Libraries.astime.astime.typ"
     Type="File"
-    LastWriteTime="129592675740000000"
+    LastWriteTime="132453399414263892"
     Private="false" />
   <Object
-    Path="C:\projects\KRBO-01-17\Kabanov\Logical\Libraries\astime\astime.fun"
+    Path="D:\BRLab1\Logical\Libraries\astime\astime.fun"
     LogicalPath="Libraries.astime.astime.fun"
     Type="File"
-    LastWriteTime="129592675740000000"
+    LastWriteTime="132453399414263892"
     Private="false" />
   <Object
-    Path="C:\projects\KRBO-01-17\Kabanov\Logical\Libraries\MtrCtrl\ANSIC.lby"
+    Path="D:\BRLab1\Logical\Libraries\MtrCtrl\ANSIC.lby"
     LogicalPath="Libraries.MtrCtrl"
     Type="Library"
-    LastWriteTime="132441233820000000" />
+    LastWriteTime="132453399414074007" />
   <Object
-    Path="C:\projects\KRBO-01-17\Kabanov\Logical\Libraries\MtrCtrl\MtrCtrl.typ"
+    Path="D:\BRLab1\Logical\Libraries\MtrCtrl\MtrCtrl.typ"
     LogicalPath="Libraries.MtrCtrl.MtrCtrl.typ"
     Type="File"
-    LastWriteTime="132441224360000000"
+    LastWriteTime="132453399414093986"
     Private="false" />
   <Object
-    Path="C:\projects\KRBO-01-17\Kabanov\Logical\Libraries\MtrCtrl\MtrCtrl.var"
+    Path="D:\BRLab1\Logical\Libraries\MtrCtrl\MtrCtrl.var"
     LogicalPath="Libraries.MtrCtrl.MtrCtrl.var"
     Type="File"
-    LastWriteTime="132441224360000000"
+    LastWriteTime="132453399414103984"
     Private="false" />
   <Object
-    Path="C:\projects\KRBO-01-17\Kabanov\Logical\Libraries\MtrCtrl\MtrCtrl.fun"
+    Path="D:\BRLab1\Logical\Libraries\MtrCtrl\MtrCtrl.fun"
     LogicalPath="Libraries.MtrCtrl.MtrCtrl.fun"
     Type="File"
-    LastWriteTime="132453451104290638"
+    LastWriteTime="132465478115935826"
     Private="false" />
   <Object
-    Path="C:\projects\KRBO-01-17\Kabanov\Logical\Libraries\MtrCtrl\FB_Integrator.c"
+    Path="D:\BRLab1\Logical\Libraries\MtrCtrl\FB_Integrator.c"
     LogicalPath="Libraries.MtrCtrl.FB_Integrator.c"
     Type="File"
-    LastWriteTime="132453449713609326"
+    LastWriteTime="132453409961552063"
     Private="false" />
   <Object
-    Path="C:\projects\KRBO-01-17\Kabanov\Logical\Libraries\MtrCtrl\FB_Regulator.c"
+    Path="D:\BRLab1\Logical\Libraries\MtrCtrl\FB_Regulator.c"
     LogicalPath="Libraries.MtrCtrl.FB_Regulator.c"
     Type="File"
-    LastWriteTime="132453376115874321"
+    LastWriteTime="132465488002787984"
     Private="false" />
   <Object
-    Path="C:\projects\KRBO-01-17\Kabanov\Logical\Libraries\MtrCtrl\FB_Motor.c"
+    Path="D:\BRLab1\Logical\Libraries\MtrCtrl\FB_Motor.c"
     LogicalPath="Libraries.MtrCtrl.FB_Motor.c"
     Type="File"
-    LastWriteTime="132453452384333947"
+    LastWriteTime="132465478115925665"
     Private="false" />
   <Object
-    Path="C:\projects\KRBO-01-17\Kabanov\Logical\Libraries\Program\ANSIC.prg"
-    LogicalPath="Libraries.Program"
-    Type="Program"
-    LastWriteTime="132441223800000000" />
-  <Object
-    Path="C:\projects\KRBO-01-17\Kabanov\Logical\Libraries\Program\Program.c"
-    LogicalPath="Libraries.Program.Program.c"
-    Type="File"
-    LastWriteTime="132465468886882493"
-    Private="false" />
-  <Object
-    Path="C:\projects\KRBO-01-17\Kabanov\Logical\Libraries\Program\Program.typ"
-    LogicalPath="Libraries.Program.Program.typ"
-    Type="File"
-    LastWriteTime="132441223800000000"
-    Private="true" />
-  <Object
-    Path="C:\projects\KRBO-01-17\Kabanov\Logical\Libraries\Program\Program.var"
-    LogicalPath="Libraries.Program.Program.var"
-    Type="File"
-    LastWriteTime="132453466474330314"
-    Private="true" />
-  <Object
-    Path="C:\projects\KRBO-01-17\Kabanov\Physical\Simulation\Config.pkg"
+    Path="D:\BRLab1\Physical\Simulation\Config.pkg"
     LogicalPath="Simulation"
     Type="Configuration.ParentUnknown"
-    LastWriteTime="132453317451461881" />
+    LastWriteTime="132453399414293862" />
   <Object
-    Path="C:\projects\KRBO-01-17\Kabanov\Physical\Simulation\Hardware.hw"
+    Path="D:\BRLab1\Physical\Simulation\Hardware.hw"
     LogicalPath="Simulation.Hardware.hw"
     Type="File"
-    LastWriteTime="132453317454441721"
+    LastWriteTime="132453399414293862"
     Private="false" />
   <Object
-    Path="C:\projects\KRBO-01-17\Kabanov\Physical\Simulation\Hardware.hwl"
+    Path="D:\BRLab1\Physical\Simulation\Hardware.hwl"
     LogicalPath="Simulation.Hardware.hwl"
     Type="File"
-    LastWriteTime="131865063240000000"
+    LastWriteTime="132453399414293862"
     Private="false" />
   <Object
-    Path="C:\projects\KRBO-01-17\Kabanov\Physical\Simulation\PLC1\Cpu.pkg"
+    Path="D:\BRLab1\Physical\Simulation\PLC1\Cpu.pkg"
     LogicalPath="Simulation.PLC1"
     Type="Cpu"
-    LastWriteTime="132453317451774310" />
+    LastWriteTime="132453399414303884" />
   <Object
-    Path="C:\projects\KRBO-01-17\Kabanov\Physical\Simulation\PLC1\Cpu.sw"
+    Path="D:\BRLab1\Physical\Simulation\PLC1\Cpu.sw"
     LogicalPath="Simulation.PLC1.Cpu.sw"
     Type="File"
-    LastWriteTime="132441224360000000"
+    LastWriteTime="132465480285214638"
     Private="false" />
   <Object
-    Path="C:\projects\KRBO-01-17\Kabanov\Physical\Simulation\PLC1\Cpu.per"
+    Path="D:\BRLab1\Physical\Simulation\PLC1\Cpu.per"
     LogicalPath="Simulation.PLC1.Cpu.per"
     Type="File"
-    LastWriteTime="132441222560000000"
+    LastWriteTime="132453399414303884"
     Private="false" />
   <Object
-    Path="C:\projects\KRBO-01-17\Kabanov\Physical\Simulation\PLC1\IoMap.iom"
+    Path="D:\BRLab1\Physical\Simulation\PLC1\IoMap.iom"
     LogicalPath="Simulation.PLC1.IoMap.iom"
     Type="File"
-    LastWriteTime="132441222560000000"
+    LastWriteTime="132453399414313895"
     Private="false" />
   <Object
-    Path="C:\projects\KRBO-01-17\Kabanov\Physical\Simulation\PLC1\PvMap.vvm"
+    Path="D:\BRLab1\Physical\Simulation\PLC1\PvMap.vvm"
     LogicalPath="Simulation.PLC1.PvMap.vvm"
     Type="File"
-    LastWriteTime="129592675740000000"
+    LastWriteTime="132453399414313895"
     Private="false" />
 </Objects>

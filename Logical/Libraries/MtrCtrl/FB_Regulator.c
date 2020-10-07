@@ -29,7 +29,8 @@ void FB_Regulator(struct FB_Regulator* inst)
 	a = a>inst->max_abs_value ? inst->max_abs_value:a;
 	a = a<-inst->max_abs_value ? -inst->max_abs_value:a;
 	
-	inst->integrator.in*b + inst->iyOld;
+	inst->iyOld = inst->integrator.in*b  + inst->iyOld;
+	//inst->integrator.in*b + inst->iyOld;
 	FB_Integrator(&inst->integrator);
 	REAL sum = a + inst->integrator.out;
 	inst->u=sum;

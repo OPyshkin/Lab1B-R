@@ -18,9 +18,14 @@
 void _INIT ProgramINIT(void)
 {
 	fb_motor.dt = 0.002;
-	fb_motor.ke = 2;
+	fb_motor.ke = 0.00096;
 	fb_motor.Tm = 0.04;
 	fb_motor.integrator.dt = 0.002;
+	
+	fb_motor2.dt = 0.002;
+	fb_motor2.ke = 0.00096;
+	fb_motor2.Tm = 0.04;
+	fb_motor2.integrator.dt = 0.002;
 	
 	fb_regulator.dt = 0.002;
 	fb_regulator.k_p = 0.0064;
@@ -55,4 +60,5 @@ void _CYCLIC ProgramCYCLIC(void)
 	fb_motor.u=fb_regulator.u;
 	FB_motor(&fb_motor);
 	
+	FB_motor(&fb_motor2);
 }

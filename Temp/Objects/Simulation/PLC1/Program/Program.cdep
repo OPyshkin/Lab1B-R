@@ -1,9 +1,8 @@
 $(AS_CPU_PATH)/program/program.c.o:
-$(AS_PROJECT_PATH)/logical/libraries/program/program.c
+$(AS_PROJECT_PATH)/logical/program/program.c
 $(AS_GNU_INST_PATH)/i386-elf/include/bur/plctypes.h
 $(AS_GNU_INST_PATH)/i386-elf/include/bur/plc.h
-$(AS_TEMP_PATH)/includes/libraries/program/asdefault.h
-$(AS_TEMP_PATH)/includes/libraries/asdefault.h
+$(AS_TEMP_PATH)/includes/program/asdefault.h
 $(AS_TEMP_PATH)/includes/asdefault.h
 $(AS_TEMP_PATH)/includes/runtime.h
 $(AS_TEMP_PATH)/includes/operator.h
@@ -13,5 +12,5 @@ $(AS_TEMP_PATH)/includes/asieccon.h
 $(AS_TEMP_PATH)/includes/mtrctrl.h
 $(AS_TEMP_PATH)/includes/globaltyp.h
 $(AS_TEMP_PATH)/includes/globalvar.h
-$(AS_TEMP_PATH)/includes/libraries/program/programtyp.h
-$(AS_TEMP_PATH)/includes/libraries/program/programvar.h
+$(AS_TEMP_PATH)/includes/program/programtyp.h
+$(AS_TEMP_PATH)/includes/program/programvar.h

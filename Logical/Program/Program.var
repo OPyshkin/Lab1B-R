@@ -14,4 +14,5 @@ VAR
 	speed : REAL := 0.0;
 	enable : BOOL := FALSE;
 	count : INT := 0;
+	fb_motor2 : FB_motor := (0);
 END_VAR

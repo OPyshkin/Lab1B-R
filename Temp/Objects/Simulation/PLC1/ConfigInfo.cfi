@@ -12,12 +12,12 @@
     <Task
       Name="Program"
       Disable="false"
-      Source="Libraries.Program"
+      Source="Program"
       Language="ANSIC">
       <File
-        Path="C:\projects\KRBO-01-17\Kabanov\Logical\Libraries\Program\Program.typ" />
+        Path="D:\BRLab1\Logical\Program\Program.typ" />
       <File
-        Path="C:\projects\KRBO-01-17\Kabanov\Logical\Libraries\Program\Program.var" />
+        Path="D:\BRLab1\Logical\Program\Program.var" />
     </Task>
   </TaskClass>
   <TaskClass

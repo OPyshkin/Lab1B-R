@@ -1,113 +1,141 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <RuleSetOptions>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\iomap.br">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\simulation\plc1\iomap.iom" LastWriteTime="2020-09-09 13:50:56" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\simulation\plc1\pvmap.vvm" LastWriteTime="2011-08-31 16:32:54" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\channelconfiguration.xml" LastWriteTime="2020-10-07 15:25:26" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\simulation\hardware.hw" LastWriteTime="2020-09-23 13:49:04" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\simulation\plc1\cpu.sw" LastWriteTime="2020-09-09 13:53:56" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\simulation\plc1\iomap.iom" LastWriteTime="2020-09-23 16:05:40" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\simulation\plc1\pvmap.vvm" LastWriteTime="2020-09-23 16:05:40" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\channelconfiguration.xml" LastWriteTime="2020-10-07 15:53:36" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\simulation\hardware.hw" LastWriteTime="2020-09-23 16:05:40" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\simulation\plc1\cpu.sw" LastWriteTime="2020-10-07 15:40:28" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Simulation\PLC1\IoMap.iom&quot; &quot;$(AS_PROJECT_PATH)\Physical\Simulation\PLC1\PvMap.vvm&quot; -m &quot;$(AS_PROJECT_PATH)\Temp\Objects\Simulation\PLC1\ConfigInfo.cfi&quot; -g &quot;$(AS_PROJECT_PATH)\Temp\Objects\Declarations.lst&quot; -x &quot;$(AS_PROJECT_PATH)\Temp\Objects\Simulation\PLC1\ChannelConfiguration.xml&quot; -v V1.00.0 -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\Simulation\PLC1&quot; -iomap -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Simulation\PLC1\iomap.br&quot; -T SG4 -B M4.01 -P &quot;$(AS_PROJECT_PATH)&quot; -s &quot;Simulation.PLC1&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\ashwac.br">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\simulation\hardware.hw" LastWriteTime="2020-09-23 13:49:04" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\simulation\hardware.hw" LastWriteTime="2020-09-23 16:05:40" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Simulation\Hardware.hw&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Simulation\PLC1\ashwac.br&quot; -L &quot;AsIecCon: V*, astime: V*, MtrCtrl: V*, Operator: V*, Runtime: V*&quot; -c &quot;Simulation&quot; -Z &quot;UnitSystem: n.d, TextSystem: n.d, ProgrammingSystem: n.d, Connectivity: n.d, AAS: n.d&quot; -M IA32 -B M4.01 -P &quot;$(AS_PROJECT_PATH)&quot; -s &quot;Simulation&quot; -T SG4 " />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\sysconf.br">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\simulation\hardware.hw" LastWriteTime="2020-09-23 13:49:04" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\simulation\hardware.hw" LastWriteTime="2020-09-23 16:05:40" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Simulation\Hardware.hw&quot;  -c &quot;Simulation&quot; -sysconf -S &quot;PLC1&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Simulation\PLC1\sysconf.br&quot; -T SG4 -B M4.01 -P &quot;$(AS_PROJECT_PATH)&quot; -s &quot;Simulation&quot; " />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\asfw.br">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\simulation\hardware.hw" LastWriteTime="2020-09-23 13:49:04" />
-    <Prerequisite ID="c:\brautomation\as45\upgrades\modified.txt" LastWriteTime="2018-12-17 12:20:22" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\simulation\hardware.hw" LastWriteTime="2020-09-23 16:05:40" />
+    <Prerequisite ID="d:\brinstallation\as45\upgrades\modified.txt" LastWriteTime="2018-12-17 12:20:22" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Simulation\Hardware.hw&quot;  -v V1.00.0 -S &quot;PLC1&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Simulation\PLC1\asfw.br&quot; -T SG4 -B M4.01 -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;Simulation&quot; -zip -s &quot;Simulation&quot; -firmware " />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\ashwd.br">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\simulation\hardware.hw" LastWriteTime="2020-09-23 13:49:04" />
-    <Prerequisite ID="c:\brautomation\as45\upgrades\modified.txt" LastWriteTime="2018-12-17 12:20:22" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\simulation\hardware.hw" LastWriteTime="2020-09-23 16:05:40" />
+    <Prerequisite ID="d:\brinstallation\as45\upgrades\modified.txt" LastWriteTime="2018-12-17 12:20:22" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Simulation\Hardware.hw&quot;  -v V1.00.0 -S &quot;PLC1&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Simulation\PLC1\ashwd.br&quot; -T SG4 -B M4.01 -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;Simulation&quot; -zip -s &quot;Simulation&quot; -hwd " />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\arconfig.br">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\simulation\plc1\iomap.iom" LastWriteTime="2020-09-09 13:50:56" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\simulation\hardware.hw" LastWriteTime="2020-09-23 13:49:04" />
-    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Simulation\PLC1\IoMap.iom&quot; &quot;$(AS_PROJECT_PATH)\Physical\Simulation\Hardware.hw&quot;  -arconfig -C &quot;/RT=1000 /AM=* /SDT=5 /DAIP=10.0.1.10 /REPO=11159 /ANSL=1 /PT=11169&quot; -D &quot;/IF=tcpip /LOPO=11159 /SA=1&quot; -c &quot;Simulation&quot; -v V1.00.0 -S &quot;PLC1&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Simulation\PLC1\arconfig.br&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Simulation\PLC1\ChannelConfiguration.xml&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Simulation\PLC1\HardwareConfiguration.xml&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Simulation\PLC1\ReActionTechnologyConfiguration.xml&quot; -T SG4 -B M4.01 -P &quot;$(AS_PROJECT_PATH)&quot; -s &quot;Simulation&quot; " />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\simulation\plc1\iomap.iom" LastWriteTime="2020-09-23 16:05:40" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\simulation\hardware.hw" LastWriteTime="2020-09-23 16:05:40" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\Simulation\PLC1\IoMap.iom&quot; &quot;$(AS_PROJECT_PATH)\Physical\Simulation\Hardware.hw&quot;  -arconfig -C &quot;/RT=1000 /AM=*&quot; -D &quot;/IF=COM1 /BD=57600 /PA=2 /IT=20 /RS=0&quot; -c &quot;Simulation&quot; -v V1.00.0 -S &quot;PLC1&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Simulation\PLC1\arconfig.br&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Simulation\PLC1\ChannelConfiguration.xml&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Simulation\PLC1\HardwareConfiguration.xml&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Simulation\PLC1\ReActionTechnologyConfiguration.xml&quot; -T SG4 -B M4.01 -P &quot;$(AS_PROJECT_PATH)&quot; -s &quot;Simulation&quot; " />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\udbdef.br">
-    <Prerequisite ID="c:\brautomation\as45\as\technologypackages\unitsystem\n.d\transfer\modules\sg4\udbdef.br" LastWriteTime="2018-11-12 17:25:24" />
-    <CommandLine Parameter="/c copy /B /Y &quot;C:\BrAutomation\AS45\AS\TechnologyPackages\UnitSystem\n.d\Transfer\Modules\SG4\udbdef.br&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Simulation\PLC1\udbdef.br&quot; &gt; nul" />
+    <Prerequisite ID="d:\brinstallation\as45\as\technologypackages\unitsystem\n.d\transfer\modules\sg4\udbdef.br" LastWriteTime="2018-11-12 17:25:24" />
+    <CommandLine Parameter="/c copy /B /Y &quot;D:\BRInstallation\AS45\AS\TechnologyPackages\UnitSystem\n.d\Transfer\Modules\SG4\udbdef.br&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Simulation\PLC1\udbdef.br&quot; &gt; nul" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\program.br">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\program\program.ox" LastWriteTime="2020-10-07 15:25:24" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\simulation\plc1\cpu.per" LastWriteTime="2020-09-09 13:50:56" />
-    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Simulation\PLC1\Program\Program.ox&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Simulation\PLC1\Program.br&quot; -v V1.00.0 -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\Simulation\PLC1\NT.ofs&quot; -offsetLT &quot;$(AS_PROJECT_PATH)\Binaries\Simulation\PLC1\LT.ofs&quot; -T SG4 -M IA32 -B M4.01 -G V4.1.2  -extConstants -r Cyclic4 -p 2 -s &quot;Libraries.Program&quot; -L &quot;AsIecCon: V*, astime: V*, MtrCtrl: V*, Operator: V*, Runtime: V*&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\program\program.ox" LastWriteTime="2020-10-07 15:53:28" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\simulation\plc1\cpu.per" LastWriteTime="2020-09-23 16:05:40" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\mtrctrl\mtrctrl.fun" LastWriteTime="2020-10-07 15:36:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\program.var" LastWriteTime="2020-10-07 15:49:20" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\program.c" LastWriteTime="2020-10-07 15:49:18" />
+    <Prerequisite ID="d:\brinstallation\as45\as\gnuinst\v4.1.2\i386-elf\include\bur\plctypes.h" LastWriteTime="2018-11-12 17:25:24" />
+    <Prerequisite ID="d:\brinstallation\as45\as\gnuinst\v4.1.2\i386-elf\include\bur\plc.h" LastWriteTime="2018-11-12 17:25:24" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Simulation\PLC1\Program\Program.ox&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Simulation\PLC1\Program.br&quot; -v V1.00.0 -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\Simulation\PLC1\NT.ofs&quot; -offsetLT &quot;$(AS_PROJECT_PATH)\Binaries\Simulation\PLC1\LT.ofs&quot; -T SG4 -M IA32 -B M4.01 -G V4.1.2  -extConstants -r Cyclic4 -p 2 -s &quot;Program&quot; -L &quot;AsIecCon: V*, astime: V*, MtrCtrl: V*, Operator: V*, Runtime: V*&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
     <AdditionalBuildTrigger Key="VolatileMemory" Value="4096" />
     <AdditionalBuildTrigger Key="PermanentAnalogMemory" Value="0" />
     <AdditionalBuildTrigger Key="PermanentDigitalMemory" Value="0" />
     <AdditionalBuildTrigger Key="RemanentMemory" Value="4096" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\program\program.ox">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\program\a.out" LastWriteTime="2020-10-07 15:25:24" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\program\a.out" LastWriteTime="2020-10-07 15:53:28" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\mtrctrl\mtrctrl.fun" LastWriteTime="2020-10-07 15:36:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\program.var" LastWriteTime="2020-10-07 15:49:20" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\program.c" LastWriteTime="2020-10-07 15:49:18" />
+    <Prerequisite ID="d:\brinstallation\as45\as\gnuinst\v4.1.2\i386-elf\include\bur\plctypes.h" LastWriteTime="2018-11-12 17:25:24" />
+    <Prerequisite ID="d:\brinstallation\as45\as\gnuinst\v4.1.2\i386-elf\include\bur\plc.h" LastWriteTime="2018-11-12 17:25:24" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Simulation\PLC1\Program\a.out&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Simulation\PLC1\Program\Program.ox&quot; -T SG4 -r Cyclic4 -G V4.1.2  " />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\program\a.out">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\program\program.c.o" LastWriteTime="2020-10-07 15:25:24" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\program\program.c.o" LastWriteTime="2020-10-07 15:53:28" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\mtrctrl\mtrctrl.fun" LastWriteTime="2020-10-07 15:36:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\program.var" LastWriteTime="2020-10-07 15:49:20" />
     <CommandLine Parameter=" -link &quot;$(AS_PROJECT_PATH)\Temp\Objects\Simulation\PLC1\Program\Program.c.o&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Simulation\PLC1\Program\a.out&quot; -G V4.1.2  -T SG4 -M IA32 &quot;-Wl,$(AS_PROJECT_PATH)\Temp\Archives\Simulation\PLC1\libMtrCtrl.a&quot; &quot;-Wl,$(AS_PROJECT_PATH)\AS\System\M0401\SG4\libAsIecCon.a&quot; &quot;-Wl,$(AS_PROJECT_PATH)\AS\System\M0401\SG4\libastime.a&quot; &quot;-Wl,$(AS_PROJECT_PATH)\AS\System\M0401\SG4\liboperator.a&quot; &quot;-Wl,$(AS_PROJECT_PATH)\AS\System\M0401\SG4\libruntime.a&quot; -specs=I386specs" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\program\program.c.o">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\program\program.c" LastWriteTime="2020-10-07 15:21:28" />
-    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Logical\Libraries\Program\Program.c&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Simulation\PLC1\Program\Program.c.o&quot; -T SG4 -M IA32 -B M4.01 -G V4.1.2  -s &quot;Libraries.Program&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -specs=I386specs -I &quot;$(AS_PROJECT_PATH)\Logical\Libraries\Program&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes\Libraries\Program&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes\Libraries&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes&quot; -trigraphs -fno-asm -D _DEFAULT_INCLUDES -D _SG4 -fPIC -O0 -g -Wall -include &quot;$(AS_PROJECT_PATH)\Temp\Objects\Simulation\PLC1\Libraries.h&quot; -x c -P &quot;$(AS_PROJECT_PATH)&quot;" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\program.c" LastWriteTime="2020-10-07 15:49:18" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\mtrctrl\mtrctrl.fun" LastWriteTime="2020-10-07 15:36:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\program\program.var" LastWriteTime="2020-10-07 15:49:20" />
+    <Prerequisite ID="d:\brinstallation\as45\as\gnuinst\v4.1.2\i386-elf\include\bur\plctypes.h" LastWriteTime="2018-11-12 17:25:24" />
+    <Prerequisite ID="d:\brinstallation\as45\as\gnuinst\v4.1.2\i386-elf\include\bur\plc.h" LastWriteTime="2018-11-12 17:25:24" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Logical\Program\Program.c&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Simulation\PLC1\Program\Program.c.o&quot; -T SG4 -M IA32 -B M4.01 -G V4.1.2  -s &quot;Program&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -specs=I386specs -I &quot;$(AS_PROJECT_PATH)\Logical\Program&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes\Program&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes&quot; -trigraphs -fno-asm -D _DEFAULT_INCLUDES -D _SG4 -fPIC -O0 -g -Wall -include &quot;$(AS_PROJECT_PATH)\Temp\Objects\Simulation\PLC1\Libraries.h&quot; -x c -P &quot;$(AS_PROJECT_PATH)&quot;" />
     <AdditionalBuildTrigger Key="IecDeclarationsInAnsiC" Value="False" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\asieccon.br">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\as\system\m0401\sg4\asieccon.br" LastWriteTime="2013-10-28 13:18:26" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\as\system\m0401\sg4\asieccon.br" LastWriteTime="2020-09-23 16:05:40" />
     <CommandLine Parameter="/c copy /B /Y &quot;$(AS_PROJECT_PATH)\AS\System\M0401\SG4\AsIecCon.br&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Simulation\PLC1\AsIecCon.br&quot; &gt; nul" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\astime.br">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\as\system\m0401\sg4\astime.br" LastWriteTime="2013-10-28 13:18:36" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\as\system\m0401\sg4\astime.br" LastWriteTime="2020-09-23 16:05:42" />
     <CommandLine Parameter="/c copy /B /Y &quot;$(AS_PROJECT_PATH)\AS\System\M0401\SG4\astime.br&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Simulation\PLC1\astime.br&quot; &gt; nul" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\mtrctrl.br">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\mtrctrl\mtrctrl.ox" LastWriteTime="2020-10-07 15:25:24" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\mtrctrl\ansic.lby" LastWriteTime="2020-09-09 14:09:42" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\mtrctrl\mtrctrl.ox" LastWriteTime="2020-10-07 15:53:30" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\mtrctrl\ansic.lby" LastWriteTime="2020-09-23 16:05:40" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\mtrctrl\mtrctrl.fun" LastWriteTime="2020-10-07 15:36:50" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Simulation\PLC1\MtrCtrl\MtrCtrl.ox&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Simulation\PLC1\MtrCtrl.br&quot; -v V1.00.0 -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\Simulation\PLC1\NT.ofs&quot; -offsetLT &quot;$(AS_PROJECT_PATH)\Binaries\Simulation\PLC1\LT.ofs&quot; -T SG4 -M IA32 -B M4.01 -G V4.1.2  -extConstants -r Library -R &quot;A new source library&quot; -s &quot;Libraries.MtrCtrl&quot; -L &quot;AsIecCon: V*, astime: V*, MtrCtrl: V*, Operator: V*, Runtime: V*&quot; -P &quot;$(AS_PROJECT_PATH)&quot; " />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\mtrctrl\mtrctrl.ox">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\mtrctrl\a.out" LastWriteTime="2020-10-07 15:25:24" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\mtrctrl\a.out" LastWriteTime="2020-10-07 15:53:30" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\mtrctrl\mtrctrl.fun" LastWriteTime="2020-10-07 15:36:50" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\Simulation\PLC1\MtrCtrl\a.out&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Simulation\PLC1\MtrCtrl\MtrCtrl.ox&quot; -T SG4 -r Library -G V4.1.2  " />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\mtrctrl\a.out">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\mtrctrl\fb_integrator.c.o" LastWriteTime="2020-10-07 15:25:24" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\mtrctrl\fb_regulator.c.o" LastWriteTime="2020-10-07 15:25:24" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\mtrctrl\fb_motor.c.o" LastWriteTime="2020-10-07 15:25:24" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\mtrctrl\fb_integrator.c.o" LastWriteTime="2020-10-07 15:53:28" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\mtrctrl\fb_regulator.c.o" LastWriteTime="2020-10-07 15:53:28" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\mtrctrl\fb_motor.c.o" LastWriteTime="2020-10-07 15:53:30" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\mtrctrl\mtrctrl.fun" LastWriteTime="2020-10-07 15:36:50" />
     <CommandLine Parameter=" -link &quot;$(AS_PROJECT_PATH)\Temp\Objects\Simulation\PLC1\MtrCtrl\FB_Integrator.c.o&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Simulation\PLC1\MtrCtrl\FB_Regulator.c.o&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\Simulation\PLC1\MtrCtrl\FB_Motor.c.o&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Simulation\PLC1\MtrCtrl\a.out&quot; -G V4.1.2  -T SG4 -M IA32 &quot;-Wl,$(AS_PROJECT_PATH)\AS\System\M0401\SG4\libAsIecCon.a&quot; &quot;-Wl,$(AS_PROJECT_PATH)\AS\System\M0401\SG4\libastime.a&quot; &quot;-Wl,$(AS_PROJECT_PATH)\AS\System\M0401\SG4\liboperator.a&quot; &quot;-Wl,$(AS_PROJECT_PATH)\AS\System\M0401\SG4\libruntime.a&quot; -specs=I386specs" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\mtrctrl\fb_integrator.c.o">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\mtrctrl\fb_integrator.c" LastWriteTime="2020-09-23 17:29:30" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\mtrctrl\fb_integrator.c" LastWriteTime="2020-09-23 16:23:16" />
+    <Prerequisite ID="d:\brinstallation\as45\as\gnuinst\v4.1.2\i386-elf\include\bur\plctypes.h" LastWriteTime="2018-11-12 17:25:24" />
+    <Prerequisite ID="d:\brinstallation\as45\as\gnuinst\v4.1.2\i386-elf\include\bur\plc.h" LastWriteTime="2018-11-12 17:25:24" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\includes\mtrctrl.h" LastWriteTime="2020-10-07 15:53:26" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Logical\Libraries\MtrCtrl\FB_Integrator.c&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Simulation\PLC1\MtrCtrl\FB_Integrator.c.o&quot; -T SG4 -M IA32 -B M4.01 -G V4.1.2  -s &quot;Libraries.MtrCtrl&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -specs=I386specs -r Library -I &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MtrCtrl&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes\Libraries\MtrCtrl&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes&quot; -trigraphs -fno-asm -D _DEFAULT_INCLUDES -D _SG4 -fPIC -O0 -g -Wall -include &quot;$(AS_PROJECT_PATH)\Temp\Objects\Simulation\PLC1\Libraries.h&quot; -D _MTRCTRL_EXPORT -x c -P &quot;$(AS_PROJECT_PATH)&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\mtrctrl\fb_regulator.c.o">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\mtrctrl\fb_regulator.c" LastWriteTime="2020-09-23 15:26:50" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\mtrctrl\fb_regulator.c" LastWriteTime="2020-10-07 15:53:20" />
+    <Prerequisite ID="d:\brinstallation\as45\as\gnuinst\v4.1.2\i386-elf\include\bur\plctypes.h" LastWriteTime="2018-11-12 17:25:24" />
+    <Prerequisite ID="d:\brinstallation\as45\as\gnuinst\v4.1.2\i386-elf\include\bur\plc.h" LastWriteTime="2018-11-12 17:25:24" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\includes\mtrctrl.h" LastWriteTime="2020-10-07 15:53:26" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Logical\Libraries\MtrCtrl\FB_Regulator.c&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Simulation\PLC1\MtrCtrl\FB_Regulator.c.o&quot; -T SG4 -M IA32 -B M4.01 -G V4.1.2  -s &quot;Libraries.MtrCtrl&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -specs=I386specs -r Library -I &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MtrCtrl&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes\Libraries\MtrCtrl&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes&quot; -trigraphs -fno-asm -D _DEFAULT_INCLUDES -D _SG4 -fPIC -O0 -g -Wall -include &quot;$(AS_PROJECT_PATH)\Temp\Objects\Simulation\PLC1\Libraries.h&quot; -D _MTRCTRL_EXPORT -x c -P &quot;$(AS_PROJECT_PATH)&quot;" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\mtrctrl\fb_motor.c.o">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\mtrctrl\fb_motor.c" LastWriteTime="2020-09-23 17:33:58" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\logical\libraries\mtrctrl\fb_motor.c" LastWriteTime="2020-10-07 15:36:50" />
+    <Prerequisite ID="d:\brinstallation\as45\as\gnuinst\v4.1.2\i386-elf\include\bur\plctypes.h" LastWriteTime="2018-11-12 17:25:24" />
+    <Prerequisite ID="d:\brinstallation\as45\as\gnuinst\v4.1.2\i386-elf\include\bur\plc.h" LastWriteTime="2018-11-12 17:25:24" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\includes\mtrctrl.h" LastWriteTime="2020-10-07 15:53:26" />
     <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Logical\Libraries\MtrCtrl\FB_Motor.c&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\Simulation\PLC1\MtrCtrl\FB_Motor.c.o&quot; -T SG4 -M IA32 -B M4.01 -G V4.1.2  -s &quot;Libraries.MtrCtrl&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -specs=I386specs -r Library -I &quot;$(AS_PROJECT_PATH)\Logical\Libraries\MtrCtrl&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes\Libraries\MtrCtrl&quot; &quot;$(AS_PROJECT_PATH)\Temp\Includes&quot; -trigraphs -fno-asm -D _DEFAULT_INCLUDES -D _SG4 -fPIC -O0 -g -Wall -include &quot;$(AS_PROJECT_PATH)\Temp\Objects\Simulation\PLC1\Libraries.h&quot; -D _MTRCTRL_EXPORT -x c -P &quot;$(AS_PROJECT_PATH)&quot;" />
   </Rule>
   <Rule ID="#cpu_tp.mak">
     <CommandLine Parameter=" -r -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\Simulation\PLC1\#cpu_tp.mak&quot; -k" />
   </Rule>
   <Rule ID="$(AS_PROJECT_PATH)\binaries\simulation\plc1\transfer.lst">
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\iomap.br" LastWriteTime="2020-10-07 15:25:28" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\ashwac.br" LastWriteTime="2020-10-07 15:25:26" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\sysconf.br" LastWriteTime="2020-10-07 15:25:26" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\asfw.br" LastWriteTime="2020-10-07 15:25:26" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\ashwd.br" LastWriteTime="2020-10-07 15:25:26" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\arconfig.br" LastWriteTime="2020-10-07 15:25:28" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\iomap.br" LastWriteTime="2020-10-07 15:53:38" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\ashwac.br" LastWriteTime="2020-10-07 15:53:36" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\sysconf.br" LastWriteTime="2020-10-07 15:53:36" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\asfw.br" LastWriteTime="2020-10-07 15:53:36" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\ashwd.br" LastWriteTime="2020-10-07 15:53:36" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\arconfig.br" LastWriteTime="2020-10-07 15:53:38" />
     <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\udbdef.br" LastWriteTime="2018-11-12 17:25:24" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\program.br" LastWriteTime="2020-10-07 15:25:24" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\asieccon.br" LastWriteTime="2013-10-28 13:18:26" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\astime.br" LastWriteTime="2013-10-28 13:18:36" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\mtrctrl.br" LastWriteTime="2020-10-07 15:25:24" />
-    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\simulation\plc1\cpu.sw" LastWriteTime="2020-09-09 13:53:56" />
-    <CommandLine Parameter=" &quot;$(AS_PROJECT_PATH)\Kabanov.apj&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -o &quot;$(AS_PROJECT_PATH)\Binaries&quot; -c &quot;Simulation&quot; -i &quot;C:\BrAutomation\AS45&quot; -S &quot;PLC1&quot; -all -A &quot;AR000&quot; -pil -swFiles &quot;$(AS_PROJECT_PATH)\Physical\Simulation\PLC1\Cpu.sw&quot; -Z &quot;UnitSystem: n.d, TextSystem: n.d, ProgrammingSystem: n.d, Connectivity: n.d, AAS: n.d&quot; -C &quot;/RT=1000 /AM=* /SDT=5 /DAIP=10.0.1.10 /REPO=11159 /ANSL=1 /PT=11169&quot; -D &quot;/IF=tcpip /LOPO=11159 /SA=1&quot; -M IA32 -T SG4" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\program.br" LastWriteTime="2020-10-07 15:53:30" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\asieccon.br" LastWriteTime="2020-09-23 16:05:40" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\astime.br" LastWriteTime="2020-09-23 16:05:42" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\mtrctrl.br" LastWriteTime="2020-10-07 15:53:30" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\simulation\plc1\cpu.sw" LastWriteTime="2020-10-07 15:40:28" />
+    <CommandLine Parameter=" &quot;$(AS_PROJECT_PATH)\Kabanov.apj&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -o &quot;$(AS_PROJECT_PATH)\Binaries&quot; -c &quot;Simulation&quot; -i &quot;D:\BRInstallation\AS45&quot; -S &quot;PLC1&quot; -A &quot;AR000&quot; -pil -swFiles &quot;$(AS_PROJECT_PATH)\Physical\Simulation\PLC1\Cpu.sw&quot; -Z &quot;UnitSystem: n.d, TextSystem: n.d, ProgrammingSystem: n.d, Connectivity: n.d, AAS: n.d&quot; -C &quot;/RT=1000 /AM=*&quot; -D &quot;/IF=COM1 /BD=57600 /PA=2 /IT=20 /RS=0&quot; -M IA32 -T SG4" />
   </Rule>
 </RuleSetOptions>

@@ -1,8 +1,8 @@
 /* Automation Studio generated header file */
 /* Do not edit ! */
 
-#ifndef _BUR_1602073524_3_
-#define _BUR_1602073524_3_
+#ifndef _BUR_1602075207_3_
+#define _BUR_1602075207_3_
 
 #include <bur/plctypes.h>
 
@@ -12,12 +12,12 @@
 __asm__(".section \".plc\"");
 
 /* Used IEC files */
-__asm__(".ascii \"iecfile \\\"Logical/Libraries/Program/Program.typ\\\" scope \\\"local\\\"\\n\"");
+__asm__(".ascii \"iecfile \\\"Logical/Program/Program.typ\\\" scope \\\"local\\\"\\n\"");
 
 /* Exported library functions and function blocks */
 
 __asm__(".previous");
 
 
-#endif /* _BUR_1602073524_3_ */
+#endif /* _BUR_1602075207_3_ */
 

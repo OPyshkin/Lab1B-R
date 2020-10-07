@@ -1,2 +1,2 @@
 $(AS_PROJECT_PATH)/Logical/Libraries/MtrCtrl/MtrCtrl.fun
-$(AS_PROJECT_PATH)/Logical/Libraries/Program/Program.var
+$(AS_PROJECT_PATH)/Logical/Program/Program.var

@@ -1,66 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BuildReasons>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\program\program.c.o">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\sysconf.br">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\ashwac.br">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\mtrctrl\fb_integrator.c.o">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\program\a.out">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\mtrctrl\fb_regulator.c.o">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\program\program.ox">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\mtrctrl\fb_motor.c.o">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\program.br">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\mtrctrl\a.out">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\udbdef.br">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\asieccon.br">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\mtrctrl\mtrctrl.ox">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\mtrctrl.br">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\astime.br">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\asfw.br">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\ashwd.br">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\arconfig.br">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\simulation\plc1\iomap.br">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
   <Rule ID="#cpu_tp.mak">
-    <BuildReason>Rebuild.</BuildReason>
-  </Rule>
-  <Rule ID="$(AS_PROJECT_PATH)\binaries\simulation\plc1\transfer.lst">
-    <BuildReason>Rebuild.</BuildReason>
+    <BuildReason>Rule is forced.</BuildReason>
   </Rule>
 </BuildReasons>

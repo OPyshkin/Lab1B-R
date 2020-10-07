@@ -1,5 +1,5 @@
 AR000 "Update", "SourcePath='..\..\..\as\system\M0401\AR000' DestinationPath='..\..\..\Temp\Simulation\Simulation\PLC1'"
-Connection "/IF=tcpip /LOPO=11159 /SA=1", "/RT=1000 /AM=* /SDT=5 /DAIP=10.0.1.10 /REPO=11159 /ANSL=1 /PT=11169"
+Connection "/IF=COM1 /BD=57600 /PA=2 /IT=20 /RS=0", "/RT=1000 /AM=*"
 Download: ".\ashwd.br", "SYSROM"
 Download: ".\asfw.br", "SYSROM"
 Download: ".\arconfig.br", "SYSROM"
